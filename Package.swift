@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "PluginActivityBar",
+    name: "LumiPluginActivityBar",
     defaultLocalization: "en",
     platforms: [
         .macOS(.v14),

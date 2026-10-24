@@ -1,4 +1,4 @@
-# PluginActivityBar
+# LumiPluginActivityBar
 
 Lumi 编辑器插件。
 
