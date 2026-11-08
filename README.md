@@ -1,11 +1,12 @@
 # LumiPluginActivityBar
 
-Lumi 编辑器插件。
+📖 English | [中文版](README_zh.md)
 
-> **重要规则：本插件包不能依赖其他插件包，也不能被其他插件包依赖。**
+Lumi editor plugin.
+
+> **Important rule: this plugin package must not depend on other plugin packages, and must not be depended on by other plugin packages.**
 >
-> 插件之间只通过 Provider 契约通信：共享能力放入 `Provider*` / `Kit*` 包，
-> 由宿主（`Factory*`）统一装配；跨插件互相引用会破坏插件的独立装配与卸载。
+> Plugins communicate only through Provider contracts: shared capabilities go into `Provider*` / `Kit*` packages, assembled uniformly by the host (`Factory*`); cross-plugin references break independent plugin assembly and uninstallation.
 
 ## Package
 
@@ -13,11 +14,11 @@ Lumi 编辑器插件。
 - Platform: macOS 14+
 - Swift tools: 6.0
 
-## 提供什么
+## What It Provides
 
-<!-- TODO: 描述本包提供的功能 -->
+<!-- TODO: describe what this package provides -->
 
-## 依赖与集成
+## Dependencies and Integration
 
 ```swift
 dependencies: [
