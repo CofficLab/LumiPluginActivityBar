@@ -22,7 +22,7 @@ Lumi editor plugin.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/CofficLab/LumiPluginActivityBar.git", from: "1.0.0"),
+    .package(url: "https://github.com/lumi-softworks/LumiPluginActivityBar.git", from: "1.0.0"),
 ],
 targets: [
     .target(name: "YourTarget", dependencies: ["PluginActivityBar"]),
