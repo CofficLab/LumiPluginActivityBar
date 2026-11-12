@@ -12,7 +12,7 @@ final class PluginManagerObserver: SuperLog {
         subsystem: "com.coffic.lumi.plugin.activity-bar",
         category: "PluginManagerObserver"
     )
-    nonisolated static let verbose = true
+    nonisolated static let verbose = false
 
     private let pluginManager: any PluginManaging
     private let provider: ActivityBarProvider

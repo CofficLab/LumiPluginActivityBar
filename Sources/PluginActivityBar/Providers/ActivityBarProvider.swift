@@ -9,7 +9,7 @@ import SwiftUI
 public final class ActivityBarProvider: ActivityBarProviding, SuperLog {
     nonisolated static let logger = Logger(subsystem: "com.coffic.lumi.plugin.activity-bar", category: "Provider")
     public nonisolated static let emoji = "🧱"
-    nonisolated static let verbose = true
+    nonisolated static let verbose = false
 
     /// 当前已激活入口的 id。
     public private(set) var activeItemID: String?
